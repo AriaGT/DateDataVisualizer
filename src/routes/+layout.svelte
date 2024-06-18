@@ -29,6 +29,11 @@
       font-weight: 600;
       font-size: 2rem;
     }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
   }
   main {
     flex: 1;

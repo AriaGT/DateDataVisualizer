@@ -90,10 +90,10 @@
     gap: 5rem;
     width: 100%;
     max-width: calc(500px * 2 + 5rem);
+    padding: 2rem;
   }
   @media (max-width: 768px) {
     .content {
-      padding: 0 2rem;
       flex-direction: column;
       gap: 2rem;
     }
