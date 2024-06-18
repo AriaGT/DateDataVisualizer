@@ -12,8 +12,8 @@ export const getDayOfWeek = (day: number, month: number, year: number) => {
     f = Math.floor((13 * (m + 1)) / 5),
     s = Math.floor(k / 4),
     t = Math.floor(j / 4),
-    u = 2 * j,
-    dayOfWeek = (q + f + k + s + t - u) % 7;
+    u = 5 * j,
+    dayOfWeek = (q + f + k + s + t + u) % 7;
 
   return [
     "Sábado",
