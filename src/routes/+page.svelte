@@ -91,6 +91,13 @@
     width: 100%;
     max-width: calc(500px * 2 + 5rem);
   }
+  @media (max-width: 768px) {
+    .content {
+      padding: 0 2rem;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
   .section__container {
     width: 100%;
     max-width: 500px;
@@ -107,6 +114,12 @@
     line-height: 2.25rem;
     margin-bottom: 2rem;
     height: 4rem;
+  }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+    }
   }
   h3 {
     font-weight: 500;
